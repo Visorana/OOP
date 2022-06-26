@@ -139,7 +139,7 @@ reviewer2.rate_hw(student2, 'Django', 7)
 
 
 print(student1, student2, lecturer1, lecturer2, reviewer1, reviewer2, sep='\n\n')
-print(f'{student1.aver_grade()} > {student2.aver_grade()}: {student1 > student2}')
+print(f'\n{student1.aver_grade()} > {student2.aver_grade()}: {student1 > student2}')
 print(f'{lecturer1.aver_grade()} < {lecturer2.aver_grade()}: {lecturer1 < lecturer2}')
 print(s_aver_grade_course([student1, student2], 'Git'))
 print(l_aver_grade_course([lecturer1, lecturer2], 'Python'))
